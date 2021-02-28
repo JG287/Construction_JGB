@@ -1,4 +1,11 @@
-
+/**
+ * A class that represents a residential building with an exclusive number of
+ * bedrooms, bathrooms, and whether or not it has a laundry room.
+ * 
+ * @author Jose Garcia Balboa
+ * @version 1.0
+ * @since 2020-02-02
+ */
 public class Residential extends Building {
 
 	protected int numBedrooms;

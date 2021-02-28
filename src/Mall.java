@@ -1,4 +1,11 @@
-
+/**
+ * A class that represents a mall with an exclusive number of rented units, the
+ * median size of said units, and the number of parking spaces.
+ * 
+ * @author Jose Garcia Balboa
+ * @version 1.0
+ * @since 2020-02-02
+ */
 public class Mall extends Business {
 
 	private int numRentedUnits;

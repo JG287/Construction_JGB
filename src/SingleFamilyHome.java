@@ -1,4 +1,11 @@
-
+/**
+ * A class that represents a single family home with an exclusive garage/laundry
+ * room.
+ * 
+ * @author Jose Garcia Balboa
+ * @version 1.0
+ * @since 2020-02-02
+ */
 public class SingleFamilyHome extends Residential {
 
 	private boolean garage;
@@ -39,15 +46,25 @@ public class SingleFamilyHome extends Residential {
 		System.out.println("Drawing code for SingleFamilyHome");
 	}
 
+	/**
+	 * This method is used to determine whether or not a single family home has a
+	 * garage OR laundry room. This method also takes the concatenation of a String
+	 * and our instance variables and stores them within a String variable in order
+	 * to return them later on.
+	 * 
+	 * @return This returns all of the String variables that have already been
+	 *         created, either through inheritance or being made specifically in
+	 *         this class.
+	 */
 	public String displayData() {
 
-		if(garage == true)
+		if (garage == true)
 			grg = "Y";
-		else 
+		else
 			grg = "N";
-		if(laundryRoom == true)
+		if (laundryRoom == true)
 			lR = "Y";
-		else 
+		else
 			lR = "N";
 		String projectName = "Project Name: " + this.projectName;
 		String completeAddress = "Address: " + this.completeAddress;

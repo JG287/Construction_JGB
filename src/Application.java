@@ -1,4 +1,10 @@
-
+/**
+ * A class that showcases the different properties that pertain to a specific type of building.
+ * 
+ * @author Jose Garcia Balboa
+ * @version 1.0
+ * @since 2020-02-02
+ */
 public class Application {
 
 	public static void main(String[] args) {
@@ -22,7 +28,7 @@ public class Application {
 
 		System.out.println(sfm2.toString() + "\n");
 
-		Mall m = new Mall(1, 4, 100.0, 110, 3000.0, "Jefferson Mall", "1346 Forest Hill Lane", "Business", "B"); // constructor
+		Mall m = new Mall(1, 4, 100.0, 110, 3000.0, "Jefferson Mall", "1346 Forest Hill Lane", "Business", "B"); 
 
 		System.out.println(m.toString() + "\n");
 

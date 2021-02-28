@@ -1,4 +1,10 @@
-
+/**
+ * A class that represents an apartment with exclusive parking/laundry room.
+ * 
+ * @author Jose Garcia Balboa
+ * @version 1.0
+ * @since 2020-02-02
+ */
 public class Apartment extends Residential {
 
 	private boolean parkingAvailable;
@@ -62,16 +68,26 @@ public class Apartment extends Residential {
 		System.out.println("Drawing code for Apartment");
 	}
 
+	/**
+	 * This method is used to determine whether or not an apartment has parking
+	 * available OR a laundry room. This method also takes the concatenation of a
+	 * String and our instance variables and stores them within a String variable in
+	 * order to return them later on.
+	 * 
+	 * @return This returns all of the String variables that have already been
+	 *         created, either through inheritance or being made specifically in
+	 *         this class.
+	 */
 	public String displayData() {
 
-		if(laundryRoom == true)
+		if (laundryRoom == true)
 			lR = "Y";
-		else 
+		else
 			lR = "N";
-		if(parkingAvailable == true)
+		if (parkingAvailable == true)
 			pA = "Y";
-		else 
-			pA= "N";
+		else
+			pA = "N";
 		String projectName = "Project Name: " + this.projectName;
 		String completeAddress = "Address: " + this.completeAddress;
 		String totalSquareFeet = "Total Square Feet: " + this.totalSquareFeet;

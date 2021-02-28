@@ -1,4 +1,11 @@
-
+/**
+ * A class that represents a building with an exclusive name, address, occupancy
+ * group, subgroup, and total square feet.
+ *
+ * @author Jose Garcia Balboa
+ * @version 1.0
+ * @since 2020-02-02
+ */
 public class Building {
 
 	protected double totalSquareFeet;

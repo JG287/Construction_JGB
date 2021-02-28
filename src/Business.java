@@ -1,4 +1,11 @@
-
+/**
+ * A class that represents a business with an exclusive amount of rentable
+ * units.
+ *
+ * @author Jose Garcia Balboa
+ * @version 1.0
+ * @since 2020-02-02
+ */
 public class Business extends Building {
 
 	protected int numRentableUnits;
